@@ -6,7 +6,7 @@ set -o errexit -o pipefail
 cur_dir_name=${PWD##*/}
 cur_dir=$(pwd)
 seedsigner_app_repo="https://github.com/ekrembal/seedsigner.git"
-seedsigner_app_repo_branch="all_sighashes"
+seedsigner_app_repo_branch="show_sighash_and_psbt_hash"
 
 help()
 {
